@@ -1,0 +1,84 @@
+### Gradle ###
+.gradle/
+build/
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.logs
+*.tmp
+*.temp
+hs_err_pid*
+replay_pid*
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea_modules/
+.idea_cache/
+
+### Eclipse (如果项目中有人使用) ###
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+### VS Code (如果项目中有人使用) ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### Spring Boot ###
+/spring-boot-*/
+/spring-boot-*.jar
+!/mvnw
+!/mvnw.cmd
+/spring-boot-cli-*/
+
+### Application Properties ###
+application-*.properties
+application-*.yml
+application-*.yaml
+!application.properties
+!application.yml
+!application.yaml
+
+### Environment Variables ###
+.env
+.env.*
+!.env.example
+
+### OS Generated Files ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+### Gradle Wrapper ###
+!gradle/wrapper/gradle-wrapper.jar
+
+### Helpers ###
+/!.gitkeep
+**/.gitkeep
+
+### custom ###
+.zevin/*
+.zevin/**
