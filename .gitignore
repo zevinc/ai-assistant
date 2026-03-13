@@ -79,6 +79,8 @@ Thumbs.db
 /!.gitkeep
 **/.gitkeep
 
+### .qoder ###
+.qoder/
+
 ### custom ###
-.zevin/*
-.zevin/**
+.zevin/
